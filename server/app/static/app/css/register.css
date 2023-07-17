@@ -1,0 +1,22 @@
+/* reset  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    background-color: rgb(170, 152, 152);
+}
+
+#wrapper{
+    margin: 300px 500px 300px 500px;
+
+}
+
+#form-register
+{
+    background-color: aquamarine;
+    text-align: center;
+
+}

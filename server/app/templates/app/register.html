@@ -1,11 +1,27 @@
+{% load static %}
+<!DOCTYPE html>
 <html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="{%static 'app/css/register.css'%}">
+        <title>Document</title>
+    </head>
     <body>
-        <form action="">
-            <input type="text" value="username">
-            <input type="password" name="" id="" value="password">
+        <div id="wrapper">
+            <form action="" id="form-register">
+                <h1 class="form-register--heading">FORM ĐĂNG KÝ</h1>
+                <div class="form-group">
+                    <input type="text" name="" id="" class="form-input" placeholder="Tên Đăng Nhập">
+                </div>
+                <div class="form-group">
+                    <input type="password" name="" id="" class="form-input" placeholder="Tên Đăng Nhập">
+                </div>
+                <input type="submit" value="Đăng Ký" class="form-submit">
+            </form>
+        </div>
+        
 
-        </form>
-        <a href="">Đăng Ký</a>
-        <a href="/">Quay lại trang Đăng Nhập</a>
+
     </body>
 </html>
